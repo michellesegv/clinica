@@ -1,0 +1,33 @@
+BUENAS PRÁCTICAS
+JS
+	arreglos
+		-for dentro de otro for
+		-2D
+		-filter,map,reduce,forEach
+	objetos
+		-uso
+		-Objetos dentro de objetos
+		-funcionesfunciones
+		-validaciones : regex
+		-callbacks	
+	eventos
+		-DOM
+		-enlazar con html
+		-llamar funnciones
+	localStorage
+
+
+GITHUB
+	git
+		-branches
+		-merge
+
+
+TDD
+
+
+
+HTML
+	Estructura HTML
+		-Maquetación
+		-como pasar a otra página

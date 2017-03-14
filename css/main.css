@@ -1,0 +1,9 @@
+.un-paciente{
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px 0 0 20px;
+	padding: 15px;
+}
+.un-paciente p { 
+	margin: 3px 0 ;
+}
