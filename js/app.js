@@ -96,7 +96,7 @@ window.onload=function(){
 			for(var i = 0; i<arrDato.length;i++){
 				datoConMayusculas += arrDato[i].charAt(0).toUpperCase() + arrDato[i].substring(1).toLowerCase() + " ";
 			}
-			this.value=datoConMayusculas;
+			this.value=datoConMayusculas.trim();
 		}
 	}
 
