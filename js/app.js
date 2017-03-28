@@ -21,9 +21,12 @@ window.onload=function(){
 		var ciudad = document.getElementById("ciudad").value;
 		var pais = document.getElementById("pais").value;
 		if(nombre.length!=0 && apellido.length!=0 && edad.length!=0 && genero.length!=0 && ciudad.length!=0 && pais.length!=0){
-			arrPacientes.push(new Paciente(nombre,apellido,edad,genero,ciudad,pais));
-			creandoDiv(arrPacientes);
+			//arrPacientes.push(new Paciente(nombre,apellido,edad,genero,ciudad,pais));
+			console.log(new Paciente(nombre,apellido,edad,genero,ciudad,pais));
+			localStorage.setItem("nuevoPaciente",JSON.stringify(new Paciente(nombre,apellido,edad,genero,ciudad,pais)));
+			//creandoDiv(arrPacientes);
 			document.getElementById("form").reset()
+			window.location="paciente.html";
 		}
 		else{
 			var indicacion = document.getElementById("indicacion");

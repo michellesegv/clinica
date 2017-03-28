@@ -27,3 +27,21 @@ span{
 	color: red;
 	margin-left: 60px;
 }
+#bienvenida-paciente{
+	width: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+#nombre-paciente,#apellido-paciente,#edad-paciente,#genero-paciente,#ciudad-paciente,#pais-paciente{
+	color: black;
+	margin: 0;
+}
+.contenedor-boton{
+	text-align: right;
+}
+.contenedor-boton button{
+	display: inline-block;
+	margin-right: 30px;
+}
